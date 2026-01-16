@@ -4,5 +4,9 @@
 __pycache__
 #파이참 설정파일
 .idea
+#vscode 설정파일
+.vscode
+#log 파일
+logs/
 #민감정보
 .env
