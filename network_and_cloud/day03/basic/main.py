@@ -21,7 +21,7 @@ os.makedirs("logs", exist_ok=True)
 # ---------------------------
 # [TASK 2] 로그 포맷 및 핸들러 설정
 # ---------------------------
-LOG_FORMAT = "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+LOG_FORMAT = "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | %(message)s"
 
 # TODO: LOG_FORMAT을 사용하여 formatter를 생성하세요
 # Hint: logging.Formatter()를 사용하여 LOG_FORMAT을 전달
